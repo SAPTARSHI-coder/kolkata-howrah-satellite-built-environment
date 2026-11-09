@@ -1,0 +1,7 @@
+Model,Validation_Design,Train_N,Test_N,R2,RMSE,MAE,Notes
+Random Forest LUR (Conurbation-Wide),5-Fold Cross Validation (Contemporaneous),886,221,0.6789534191020339,22.05362112475547,15.016082169863221,High performance due to shared synoptic seasonality across stations
+Random Forest LUR (Conurbation-Wide),Spatial Group Holdout (Leave-Stations-Out),1108,1108,0.4059137298719522,29.406802214758976,20.86854150600064,True spatial generalization across independent monitoring stations
+Random Forest LUR (Conurbation-Wide),Temporal GroupKFold (Leave-Dates-Out),1108,1108,0.45644934566404194,27.716843265723362,20.59604730443229,Leave-dates-out cross-validation across independent overpass days
+Random Forest LUR (Conurbation-Wide),Temporal Split (Train 2024 -> Test 2025),479,629,0.3176859756735537,31.514408760922635,23.382505683838602,Out-of-year transferability benchmark; sensitive to annual baseline shift
+Linear Regression (OLS Baseline),Temporal Split (Train 2024 -> Test 2025),479,629,0.36363091519233914,30.434877035399737,23.677208281191277,Parametric linear baseline under temporal transfer
+Support Vector Regression (SVR),Temporal Split (Train 2024 -> Test 2025),479,629,0.239734868276253,33.26592095338403,25.496958490409913,Nonlinear support vector regressor under temporal transfer
