@@ -1,4 +1,4 @@
-# Coupling Satellite Remote Sensing and Ground-Based Monitoring: Built Environment Characteristics and Urban Air Quality across 13 Stations in Kolkata and Howrah
+# Coupling Satellite Remote Sensing and Ground-Based Monitoring: Built Environment Characteristics and Urban Air Quality across Kolkata and Howrah
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -6,7 +6,7 @@
 
 This repository contains the complete open-source reproducibility pipelines, quality-controlled datasets, satellite buffer extractions, and analysis scripts accompanying the research manuscript:
 
-> **"Coupling Satellite Remote Sensing and Ground-Based Monitoring: Built Environment Characteristics and Urban Air Quality across 13 Stations in Kolkata and Howrah"**  
+> **"Coupling Satellite Remote Sensing and Ground-Based Monitoring: Built Environment Characteristics and Urban Air Quality across Kolkata and Howrah"**  
 > **Author:** Saptarshi Sadhu (Sole Author)  
 > **Affiliation:** School of Engineering and Technology, Adamas University, Kolkata 700126, West Bengal, India  
 > **Correspondence:** `saptarshi1.sadhu@stu.adamasuniversity.ac.in` | `saptarshisadhuofficial@gmail.com`  
@@ -118,7 +118,7 @@ Distributed under the **MIT License**. See `LICENSE` for details.
 If you utilize the datasets, buffer indices, or validation benchmarking code, please cite:
 ```bibtex
 @article{sadhu2026satellite,
-  title={Coupling Satellite Remote Sensing and Ground-Based Monitoring: Built Environment Characteristics and Urban Air Quality across 13 Stations in Kolkata and Howrah},
+  title={Coupling Satellite Remote Sensing and Ground-Based Monitoring: Built Environment Characteristics and Urban Air Quality across Kolkata and Howrah},
   author={Sadhu, Saptarshi},
   journal={Building and Environment},
   year={2026},
